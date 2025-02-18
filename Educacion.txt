@@ -1,0 +1,8 @@
+Indicador deseado: 
+-proporcion de personas de x nivel educativo.
+-cobertura de centros educativos
+
+** Educación Formal 2022 **
+archivo de datos: Carátula única de la sede educativa
+CODIGOINTERNOMUNI: Se puede saber cuantos colegios hay en cada municipio
+SEDE_TOTAL_OFRE_ANTE_NIVEL: de que nivel educativo

@@ -1,0 +1,42 @@
+---
+title: "Untitled"
+output: html_document
+date: "2025-02-03"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(tidyr)
+```
+
+```{r}
+```
+
+# ANTIOQUIA 
+
+```{r}
+summary(ANT)
+```
+
+## Tasa de Natalidad 
+
+```{r pressure, echo=FALSE}
+# Histograma de la tasa de natalidad
+ggplot(ANT, aes(x = tasa_nat)) + 
+  geom_histogram(binwidth = 1, fill = "blue", color = "black") +
+  labs(title = "Tasa de Natalidad en Antioquia", x = "Tasa de Natalidad", y = "Frecuencia")
+```
+```{r}
+# Boxplot de tasas
+ggplot(ANT, aes(x = factor(1), y = tasa_nat)) + 
+  geom_boxplot(fill = "blue") +
+  labs(title = "Tasa de Natalidad en Antioquia", x = "Tasa de Natalidad", y = "Valor")
+```
+
+```{r}
+
+```
